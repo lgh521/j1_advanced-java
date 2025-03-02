@@ -2,7 +2,6 @@
 
 [![stars](https://img.shields.io/github/stars/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/stargazers)
 [![forks](https://img.shields.io/github/forks/doocs/advanced-java?color=42b883&logo=github&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/network/members)
-[![actions status](https://img.shields.io/github/workflow/status/doocs/advanced-java/Sync?color=42b883&label=sync&logo=githubactions&style=flat-square&logoColor=ffffff)](https://github.com/doocs/advanced-java/actions?query=workflow%3ASync)
 [![license](https://img.shields.io/github/license/doocs/advanced-java?color=42b883&style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](./LICENSE)
 [![doocs](https://img.shields.io/badge/org-join%20us-42b883?style=flat-square&logo=homeassistantcommunitystore&logoColor=ffffff)](https://doocs.github.io/#/?id=how-to-join)
 
@@ -11,9 +10,6 @@
 我们也在全力更新算法项目！如果你在准备笔面试算法，或者想进一步提升 coding 能力，欢迎 Star 关注 [doocs/leetcode](https://github.com/doocs/leetcode)
 
 学习本项目之前，先来看看 [Discussions 讨论区](https://github.com/doocs/advanced-java/discussions/9)的技术面试官是怎么说的吧。本项目欢迎各位开发者朋友到 Discussions 讨论区分享自己的一些想法和实践经验。也不妨 Star 关注 [doocs/advanced-java](https://github.com/doocs/advanced-java)，随时追踪项目最新动态。
-
--   Gitee Pages: https://doocs.gitee.io/advanced-java
--   GitHub Pages: https://doocs.github.io/advanced-java
 
 ## 高并发架构
 
@@ -42,6 +38,7 @@
 -   [Redis 的过期策略都有哪些？手写一下 LRU 代码实现？](/docs/high-concurrency/redis-expiration-policies-and-lru.md)
 -   [如何保证 Redis 高并发、高可用？Redis 的主从复制原理能介绍一下么？Redis 的哨兵原理能介绍一下么？](/docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
 -   [Redis 主从架构是怎样的？](/docs/high-concurrency/redis-master-slave.md)
+-   [Redis 哨兵集群如何实现高可用？](/docs/high-concurrency/redis-sentinel.md)
 -   [Redis 的持久化有哪几种方式？不同的持久化机制都有什么优缺点？持久化机制具体底层是如何实现的？](/docs/high-concurrency/redis-persistence.md)
 -   [Redis 集群模式的工作原理能说一下么？在集群模式下，Redis 的 key 是如何寻址的？分布式寻址都有哪些算法？了解一致性 hash 算法吗？如何动态增加和删除一个节点？](/docs/high-concurrency/redis-cluster.md)
 -   [了解什么是 Redis 的雪崩、穿透和击穿？Redis 崩溃之后会怎么样？系统该如何应对这种情况？如何处理 Redis 的穿透？](/docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
@@ -204,17 +201,11 @@ Doocs 技术社区，致力于打造一个内容完整、持续成长的互联�
 
 <table>
   <tr>
-    <td align="center" style="width: 200px;">
-      <a href="https://github.com/doocs">
-        <img src="./images/qrcode-for-doocs.jpg" style="width: 400px;"><br>
-        <sub>公众平台</sub>
-      </a><br>
+    <td align="center" style="width: 260px;">
+      <img src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/images/qrcode-for-doocs.png" style="width: 400px;"><br>
     </td>
-    <td align="center" style="width: 200px;">
-      <a href="https://github.com/yanglbme">
-        <img src="./images/qrcode-for-yanglbme.jpg" style="width: 400px;"><br>
-        <sub>个人微信</sub>
-      </a><br>
+    <td align="center" style="width: 260px;">
+      <img src="https://cdn-doocs.oss-cn-shenzhen.aliyuncs.com/gh/doocs/images/qrcode-for-yanglbme.png" style="width: 400px;"><br>
     </td>
   </tr>
 </table>
